@@ -100,7 +100,7 @@ public class Test_steps88 {
 
 	@Then("I should be logged in successfully")
 	public void i_should_be_logged_in_successfully() {
-		Assert.assertEquals("Home", driver.getTitle());
+		Assert.assertEquals("Login", driver.getTitle());
 		System.out.println("Home Page");
 		driver.close();
 	}
