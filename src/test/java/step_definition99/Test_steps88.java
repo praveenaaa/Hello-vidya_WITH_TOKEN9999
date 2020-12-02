@@ -93,8 +93,9 @@ public class Test_steps88 {
 	}
 
 	@When("I click on login button")
-	public void i_click_on_login_button() {
+	public void i_click_on_login_button() throws Exception {
 		driver.findElement(By.name("Login")).click();
+		Thread.sleep(3000);
 	}
 
 	@Then("I should be logged in successfully")
